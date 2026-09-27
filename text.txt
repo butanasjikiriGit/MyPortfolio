@@ -1,1 +1,0 @@
-Hello this is just a test file to determine a connection between remote repository to local repository.
