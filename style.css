@@ -2,4 +2,203 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: whitesmoke !important;
+}
+
+/* 
+
+COLOR PALETTE
+
+background: #030820
+border: #033D57
+content backround: #0C1D35
+hover lighting: #60E7FA
+font color: whitesmoke
+
+
+
+*/
+
+/* Section splitter */
+
+.splitter{
+    margin-top: 150px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-splitter{
+    font-size: 15px;
+    padding: 10px 30px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background-color: #0C1D35;
+    border: solid 1px #033D57;
+    border-radius: 5px;
+}
+
+body{
+    background-color: #030820;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navbar CSS */
+#navbar{
+    background-color: #030820 !important;
+    border-bottom: solid 1px #033D57;
+    position: sticky;
+    top: 0;
+}
+
+#navbar-logo{
+    margin-left: 300px;
+    font-weight: bolder;
+}
+
+#navbar-link{
+    margin-left: auto;
+    margin-right: 300px;
+}
+
+#navbar-link li{
+    margin: 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Landing CSS */
+#landing{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#row-landing{
+    border: solid 1px #1B4057;
+    background-color: #0C1D35;
+    margin: 100px 300px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile{
+    background-color: #030820;
+    border: solid 1px #1B4057;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.text-landing1{
+    padding: 5px 10px;
+    background-color: #030820;
+    border: solid 1px #1B4057;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.text-landing2{
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.text-landing3{
+    margin-bottom: 40px;
+}
+
+.inner-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.explore-button{
+    padding: 10px 20px;
+    background-color: #60E7FA;
+    color: #030820 !important;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.contact-button{
+    padding: 10px 20px;
+    background-color: #030820;
+    border: solid 1px #1B4057;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.resume-button{
+    padding: 10px 20px;
+    background-color: #030820;
+    border: solid 1px #1B4057;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.profile-picture{
+    width: 150px;
+    border-radius: 10px;
+    border: solid 3px #32788D;
+}
+
+.profile-name{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inner-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-icon{
+    font-size: 20px;
 }
