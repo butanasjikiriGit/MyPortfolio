@@ -236,6 +236,7 @@ html{
     border: solid 1px #1B4057;
     background-color: #0C1D35;
     border-radius: 5px;
+    margin-bottom: 20px;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -255,6 +256,11 @@ html{
     font-size: 20px;
 }
 
+.text-project2{
+    font-size: 13px;
+    font-weight: 100;
+}
+
 .inner-project{
     margin-top: 10px;
     padding-top: 10px;
@@ -263,9 +269,26 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 .inner-project i{
     font-size: 30px;
+}
+
+.view-repository{
+    padding: 5px 20px;
+    margin-top: 15px;
+    color: black !important;
+    border: solid 1px #033D57;
+    background-color: #60E7FA;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.view-repository i{
+    color: black !important;
 }
