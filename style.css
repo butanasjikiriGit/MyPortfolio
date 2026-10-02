@@ -236,13 +236,36 @@ html{
     border: solid 1px #1B4057;
     background-color: #0C1D35;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .project-images{
     height: 200px;
     width: 300px;
+    border-radius: 5px;
+}
+
+.text-project1{
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.inner-project{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: solid 1px #033D57 !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.inner-project i{
+    font-size: 30px;
 }
