@@ -23,7 +23,7 @@ font color: whitesmoke
 
 .splitter{
     margin-top: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
 }
@@ -70,6 +70,11 @@ html{
 #navbar-logo{
     margin-left: 300px;
     font-weight: bolder;
+}
+
+#navbar-logo i{
+    font-weight: normal;
+    color: #60E7FA !important;
 }
 
 #navbar-link{
@@ -201,4 +206,43 @@ html{
 
 .profile-icon{
     font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* project CSS */
+#projects{
+    margin-bottom: 100px;
+}
+
+#row-projects{
+    margin: 100px 300px;
+    padding: 30px;
+}
+
+.project-card{
+    border: solid 1px #1B4057;
+    background-color: #0C1D35;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-images{
+    height: 200px;
+    width: 300px;
 }
