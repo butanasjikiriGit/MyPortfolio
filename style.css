@@ -13,8 +13,8 @@ COLOR PALETTE
 background: #030820
 border: #033D57
 content backround: #0C1D35
-hover lighting: #60E7FA
 font color: whitesmoke
+hover lighting: #60E7FA
 
 
 
@@ -224,7 +224,7 @@ html{
 
 #row-projects{
     margin: 0px 18% 0px 18%;
-    padding: 30px;
+    padding: 20px;
 }
 
 .project-card{
@@ -301,7 +301,7 @@ html{
 /* skills CSS */
 #row-skills{
     margin: 0px 18% 0px 18%;
-    padding: 30px;
+    padding: 20px;
 }
 
 .skill-card{
@@ -313,6 +313,10 @@ html{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.skill-card i{
+    color: #60E7FA !important;
 }
 
 .text-skills1{
@@ -328,6 +332,96 @@ html{
     width: 100%;
 }
 
+.text-skills3{
+    font-size: 12px;
+    margin: 0;
+}
+
+.text-skills4{
+    font-size: 12px;
+    color: #60E7FA !important;
+    margin: 0;
+}
+
 hr{
     width: 100%;
+}
+
+.inner-skills{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tools CSS */
+#row-tools{
+    margin: 0px 18% 0px 18%;
+    padding: 20px;
+}
+
+.tool-card{
+    background-color: #0C1D35;
+    border: solid 1px #033D57;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tool-card i{
+    color: #60E7FA !important;
+}
+
+.text-tools1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inner-tools1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.inner-tools2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.tools-icon{
+    padding: 5px 10px;
+    border: solid 1px #033D57;
+    background-color: #030820;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.text-tools2{
+    font-size: 12px;
+    margin: 0;
+}
+
+.text-tools3{
+    font-size: 12px;
+    color: #60E7FA !important;
+    margin: 0;
 }
