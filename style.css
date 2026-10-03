@@ -5,6 +5,7 @@
     color: whitesmoke !important;
 }
 
+
 /* 
 
 COLOR PALETTE
@@ -22,8 +23,7 @@ font color: whitesmoke
 /* Section splitter */
 
 .splitter{
-    margin-top: 150px;
-    margin-bottom: 100px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -68,7 +68,7 @@ html{
 }
 
 #navbar-logo{
-    margin-left: 300px;
+    margin-left: 16%;
     font-weight: bolder;
 }
 
@@ -79,7 +79,7 @@ html{
 
 #navbar-link{
     margin-left: auto;
-    margin-right: 300px;
+    margin-right: 20%;
 }
 
 #navbar-link li{
@@ -96,15 +96,10 @@ html{
 
 
 /* Landing CSS */
-#landing{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
 #row-landing{
     border: solid 1px #1B4057;
     background-color: #0C1D35;
-    margin: 100px 300px;
+    margin: 100px 18% 0px 18%;
     border-radius: 10px;
     padding: 50px;
 }
@@ -228,7 +223,7 @@ html{
 }
 
 #row-projects{
-    margin: 100px 300px;
+    margin: 0px 18% 0px 18%;
     padding: 30px;
 }
 
@@ -247,7 +242,7 @@ html{
 
 .project-images{
     height: 200px;
-    width: 300px;
+    width: 100%;
     border-radius: 5px;
 }
 
@@ -291,4 +286,48 @@ html{
 
 .view-repository i{
     color: black !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* skills CSS */
+#row-skills{
+    margin: 0px 18% 0px 18%;
+    padding: 30px;
+}
+
+.skill-card{
+    padding: 20px;
+    background-color: #0C1D35;
+    border-radius: 5px;
+    border: solid 1px #033D57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-skills1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-skills2{
+    padding: 10px;
+    background-color: #030820;
+    border: solid 1px #033D57;
+    border-radius: 5px;
+    width: 100%;
+}
+
+hr{
+    width: 100%;
 }
