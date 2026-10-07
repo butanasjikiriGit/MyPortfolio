@@ -64,6 +64,7 @@ html{
     background-color: #030820 !important;
     border-bottom: solid 1px #033D57;
     position: sticky;
+    z-index: 2;
     top: 0;
 }
 
@@ -572,7 +573,7 @@ hr{
     width: 100%;
 }
 
-.text-area-box:focus ~ .contact-label, .text-area-box:not(:placeholder-shown) ~ .contact-label{
+.text-area-box:focus ~ .contact-label{
     top: -12px;
     padding: 5px;
     background-color: #0C1D35;
@@ -602,4 +603,44 @@ hr{
 
 form{
     display: contents;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer CSS */
+#row-footer{
+    background-color: #030820;
+    border-top: solid 1px #033D57;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-box i{
+    font-size: 30px;
+}
+
+.text-footer1{
+    color: lightslategray !important;
+    margin-top: 1%;
 }
