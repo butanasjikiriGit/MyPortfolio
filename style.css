@@ -20,8 +20,18 @@ hover lighting: #60E7FA
 
 */
 
-/* Section splitter */
 
+
+
+
+
+
+
+
+
+
+
+/* Section splitter */
 .splitter {
     margin-top: 100px;
     display: flex;
@@ -670,7 +680,7 @@ form {
 
 
 /* Max Hub Max Screen Size */
-@media screen and (min-width: 1280px) and (max-width: 1280px) and (min-height: 800px) and (max-height: 800px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px){
 
 
     /* Splitter */
@@ -930,6 +940,371 @@ form {
 
     .text-contact2 {
         font-size: 18px;
+    }
+
+    .text-contact3 {
+        font-size: 9px;
+    }
+
+    .text-contact4 {
+        font-size: 10px;
+    }
+
+    .text-contact5 {
+        font-size: 10px;
+    }
+
+    #contact-icon1 {
+        font-size: 25px;
+    }
+
+    #contact-icon2 {
+        font-size: 25px;
+    }
+
+    .contact-input-box {
+        font-size: 12px;
+    }
+
+    .contact-input-box:focus~.contact-label,
+    .contact-input-box:not(:placeholder-shown)~.contact-label {
+        font-size: 8px;
+    }
+
+    .contact-label {
+        top: 10px;
+        font-size: 12px;
+    }
+
+    .contact-submit-button {
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Footer CSS */
+    #row-footer {
+        padding: 10px;
+    }
+
+    .footer-box i {
+        font-size: 20px;
+    }
+
+    .text-footer1 {
+        font-size: 13px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ipad Mini Screen Size */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+
+    /* Splitter */
+    .splitter {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-splitter {
+        font-size: 12px;
+        padding: 8px 25px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Navbar CSS */
+    #navbar {
+        background-color: rgba(3, 8, 32, 0.1) !important;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-bottom: solid 1px #033D57;
+        position: sticky;
+        z-index: 2;
+        padding: 5px !important;
+        top: 0;
+    }
+
+    #navbar-logo {
+        margin-left: 5%;
+        font-weight: bolder;
+    }
+
+    #navbar-logo i {
+        font-weight: normal;
+        color: #60E7FA !important;
+    }
+
+    #navbar-link {
+        margin-left: auto;
+        font-size: 13px;
+        margin-right: 20%;
+    }
+
+    #navbar-link li {
+        margin: 0px 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Landing CSS */
+    #row-landing {
+        margin: 80px 5% 0px 5%;
+        padding: 20px;
+    }
+
+    .text-landing1 {
+        padding: 5px 10px;
+        font-size: 7px;
+    }
+
+    .text-landing2 {
+        font-size: 25px;
+    }
+
+    .text-landing3 {
+        font-size: 10px;
+    }
+
+    .explore-button {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    .contact-button {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    .resume-button {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    .profile-picture {
+        width: 100px;
+    }
+
+    .profile-name {
+        font-size: 15px;
+    }
+
+    .profile-icon {
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Project CSS */
+    #row-projects {
+        margin: 0px 5% 0px 5%;
+    }
+
+    .text-project1 {
+        font-size: 15px;
+    }
+
+    .text-project2 {
+        font-size: 10px;
+    }
+
+    .inner-project {
+        gap: 25px;
+    }
+
+    .inner-project i {
+        font-size: 20px;
+    }
+
+    .view-repository {
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Skills CSS */
+    #row-skills {
+        margin: 0px 5% 0px 5%;
+    }
+
+    .skill-card {
+        margin-bottom: 10%;
+    }
+
+    .text-skills1 {
+        font-size: 15px;
+    }
+
+    .text-skills2 {
+        font-size: 10px;
+    }
+
+    .text-skills3 {
+        font-size: 10px;
+    }
+
+    .text-skills4 {
+        font-size: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Tools CSS */
+    #row-tools {
+        margin: 0px 5% 0px 5%;
+    }
+
+    .tool-card {
+        margin-bottom: 10%;
+    }
+
+    .text-tools1 {
+        font-size: 15px;
+    }
+
+    .text-tools2 {
+        font-size: 10px;
+    }
+
+    .text-tools3 {
+        font-size: 10px;
+    }
+
+    .tools-icon {
+        font-size: 13px;
+        border-radius: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Contact CSS */
+    #row-contact {
+        margin: 0px 8% 0px 8%;
+    }
+
+    .contact-box {
+        margin-bottom: 5%;
+    }
+
+    .text-contact1 {
+        font-size: 25px;
+    }
+
+    .text-contact2 {
+        font-size: 15px;
     }
 
     .text-contact3 {
