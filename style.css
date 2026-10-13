@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,13 +22,13 @@ hover lighting: #60E7FA
 
 /* Section splitter */
 
-.splitter{
+.splitter {
     margin-top: 100px;
     display: flex;
     justify-content: center;
 }
 
-.text-splitter{
+.text-splitter {
     font-size: 15px;
     padding: 10px 30px;
     letter-spacing: 5px;
@@ -38,11 +38,11 @@ hover lighting: #60E7FA
     border-radius: 5px;
 }
 
-body{
+body {
     background-color: #030820;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -59,31 +59,34 @@ html{
 
 
 
+
 /* Navbar CSS */
-#navbar{
-    background-color: #030820 !important;
+#navbar {
+    background-color: rgba(3, 8, 32, 0.1) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-bottom: solid 1px #033D57;
     position: sticky;
     z-index: 2;
     top: 0;
 }
 
-#navbar-logo{
+#navbar-logo {
     margin-left: 16%;
     font-weight: bolder;
 }
 
-#navbar-logo i{
+#navbar-logo i {
     font-weight: normal;
     color: #60E7FA !important;
 }
 
-#navbar-link{
+#navbar-link {
     margin-left: auto;
     margin-right: 20%;
 }
 
-#navbar-link li{
+#navbar-link li {
     margin: 0px 10px;
 }
 
@@ -97,7 +100,7 @@ html{
 
 
 /* Landing CSS */
-#row-landing{
+#row-landing {
     border: solid 1px #1B4057;
     background-color: #0C1D35;
     margin: 100px 18% 0px 18%;
@@ -105,7 +108,7 @@ html{
     padding: 50px;
 }
 
-.description{
+.description {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,7 +116,7 @@ html{
     text-align: center;
 }
 
-.profile{
+.profile {
     background-color: #030820;
     border: solid 1px #1B4057;
     border-radius: 10px;
@@ -125,7 +128,7 @@ html{
     padding: 20px;
 }
 
-.text-landing1{
+.text-landing1 {
     padding: 5px 10px;
     background-color: #030820;
     border: solid 1px #1B4057;
@@ -137,24 +140,24 @@ html{
     letter-spacing: 3px;
 }
 
-.text-landing2{
+.text-landing2 {
     font-size: 45px;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
-.text-landing3{
+.text-landing3 {
     margin-bottom: 40px;
 }
 
-.inner-description{
+.inner-description {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-.explore-button{
+.explore-button {
     padding: 10px 20px;
     background-color: #60E7FA;
     color: #030820 !important;
@@ -163,7 +166,7 @@ html{
     border-radius: 5px;
 }
 
-.contact-button{
+.contact-button {
     padding: 10px 20px;
     background-color: #030820;
     border: solid 1px #1B4057;
@@ -172,7 +175,7 @@ html{
     border-radius: 5px;
 }
 
-.resume-button{
+.resume-button {
     padding: 10px 20px;
     background-color: #030820;
     border: solid 1px #1B4057;
@@ -181,26 +184,26 @@ html{
     border-radius: 5px;
 }
 
-.profile-picture{
+.profile-picture {
     width: 150px;
     border-radius: 10px;
     border: solid 3px #32788D;
 }
 
-.profile-name{
+.profile-name {
     font-size: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.inner-profile{
+.inner-profile {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.profile-icon{
+.profile-icon {
     font-size: 20px;
 }
 
@@ -219,16 +222,16 @@ html{
 
 
 /* project CSS */
-#projects{
+#projects {
     margin-bottom: 100px;
 }
 
-#row-projects{
+#row-projects {
     margin: 0px 18% 0px 18%;
     padding: 20px;
 }
 
-.project-card{
+.project-card {
     border: solid 1px #1B4057;
     background-color: #0C1D35;
     border-radius: 5px;
@@ -241,23 +244,23 @@ html{
     text-align: center;
 }
 
-.project-images{
+.project-images {
     height: 200px;
     width: 100%;
     border-radius: 5px;
 }
 
-.text-project1{
+.text-project1 {
     margin: 20px 0px;
     font-size: 20px;
 }
 
-.text-project2{
+.text-project2 {
     font-size: 13px;
     font-weight: 100;
 }
 
-.inner-project{
+.inner-project {
     margin-top: 10px;
     padding-top: 10px;
     border-top: solid 1px #033D57 !important;
@@ -268,11 +271,11 @@ html{
     gap: 30px;
 }
 
-.inner-project i{
+.inner-project i {
     font-size: 30px;
 }
 
-.view-repository{
+.view-repository {
     padding: 5px 20px;
     margin-top: 15px;
     color: black !important;
@@ -285,7 +288,7 @@ html{
     text-decoration: none;
 }
 
-.view-repository i{
+.view-repository i {
     color: black !important;
 }
 
@@ -300,12 +303,12 @@ html{
 
 
 /* skills CSS */
-#row-skills{
+#row-skills {
     margin: 0px 18% 0px 18%;
     padding: 20px;
 }
 
-.skill-card{
+.skill-card {
     padding: 20px;
     background-color: #0C1D35;
     border-radius: 5px;
@@ -316,16 +319,16 @@ html{
     flex-direction: column;
 }
 
-.skill-card i{
+.skill-card i {
     color: #60E7FA !important;
 }
 
-.text-skills1{
+.text-skills1 {
     font-size: 20px;
     font-weight: bold;
 }
 
-.text-skills2{
+.text-skills2 {
     padding: 10px;
     background-color: #030820;
     border: solid 1px #033D57;
@@ -333,22 +336,22 @@ html{
     width: 100%;
 }
 
-.text-skills3{
+.text-skills3 {
     font-size: 12px;
     margin: 0;
 }
 
-.text-skills4{
+.text-skills4 {
     font-size: 12px;
     color: #60E7FA !important;
     margin: 0;
 }
 
-hr{
+hr {
     width: 100%;
 }
 
-.inner-skills{
+.inner-skills {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -368,12 +371,12 @@ hr{
 
 
 /* tools CSS */
-#row-tools{
+#row-tools {
     margin: 0px 18% 0px 18%;
     padding: 20px;
 }
 
-.tool-card{
+.tool-card {
     background-color: #0C1D35;
     border: solid 1px #033D57;
     border-radius: 5px;
@@ -384,16 +387,16 @@ hr{
     flex-direction: column;
 }
 
-.tool-card i{
+.tool-card i {
     color: #60E7FA !important;
 }
 
-.text-tools1{
+.text-tools1 {
     font-size: 20px;
     font-weight: bold;
 }
 
-.inner-tools1{
+.inner-tools1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -401,14 +404,14 @@ hr{
     gap: 10px;
 }
 
-.inner-tools2{
+.inner-tools2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-.tools-icon{
+.tools-icon {
     padding: 5px 10px;
     border: solid 1px #033D57;
     background-color: #030820;
@@ -416,12 +419,12 @@ hr{
     margin: 0;
 }
 
-.text-tools2{
+.text-tools2 {
     font-size: 12px;
     margin: 0;
 }
 
-.text-tools3{
+.text-tools3 {
     font-size: 12px;
     color: #60E7FA !important;
     margin: 0;
@@ -442,12 +445,12 @@ hr{
 
 
 /* contact CSS */
-#row-contact{
+#row-contact {
     margin: 0px 18% 0px 18%;
     padding: 20px;
 }
 
-.contact-box{
+.contact-box {
     background-color: #0C1D35;
     border: solid 1px #033D57;
     border-radius: 5px;
@@ -458,7 +461,7 @@ hr{
     flex-direction: column;
 }
 
-.inner-contact1{
+.inner-contact1 {
     display: flex;
     position: relative;
     justify-content: start;
@@ -470,7 +473,7 @@ hr{
     border-radius: 5px;
 }
 
-.inner-contact2{
+.inner-contact2 {
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -478,30 +481,30 @@ hr{
 }
 
 
-#contact-icon1{
+#contact-icon1 {
     font-size: 30px;
     color: #60E7FA !important;
     margin-left: 2%;
 }
 
-#contact-icon2{
+#contact-icon2 {
     font-size: 30px;
     color: #60E7FA !important;
     margin-left: auto;
     margin-right: 2%;
-}  
+}
 
-#contact-icon3{
+#contact-icon3 {
     color: black !important;
 }
 
-.text-contact2{
+.text-contact2 {
     margin: auto 0px;
     font-size: 20px;
     font-weight: bold;
 }
 
-.text-contact3{
+.text-contact3 {
     margin: auto 0px;
     font-size: 10px;
     color: lightslategray !important;
@@ -509,7 +512,7 @@ hr{
     letter-spacing: 1px;
 }
 
-.text-contact4{
+.text-contact4 {
     margin: auto 0px;
     font-size: 12px;
     color: cyan !important;
@@ -517,7 +520,7 @@ hr{
     letter-spacing: 1px;
 }
 
-.text-contact5{
+.text-contact5 {
     margin: auto 0px;
     font-size: 12px;
     color: cyan !important;
@@ -525,13 +528,13 @@ hr{
     letter-spacing: 1px;
 }
 
-.contact-map{
+.contact-map {
     width: 100%;
     height: 300px;
     border-radius: 5px;
 }
 
-.contact-message{
+.contact-message {
     width: 100%;
     height: 300px;
     border-radius: 5px;
@@ -543,12 +546,12 @@ hr{
     gap: 20px;
 }
 
-.message-inner-box{
+.message-inner-box {
     width: 100%;
     position: relative;
 }
 
-.contact-input-box{
+.contact-input-box {
     padding: 10px;
     background-color: #0C1D35;
     border: solid 1px #033D57;
@@ -556,7 +559,8 @@ hr{
     width: 100%;
 }
 
-.contact-input-box:focus ~ .contact-label, .contact-input-box:not(:placeholder-shown) ~ .contact-label{
+.contact-input-box:focus~.contact-label,
+.contact-input-box:not(:placeholder-shown)~.contact-label {
     top: -12px;
     padding: 5px;
     background-color: #0C1D35;
@@ -564,7 +568,7 @@ hr{
     color: #60E7FA !important;
 }
 
-.text-area-box{
+.text-area-box {
     padding: 10px;
     background-color: #0C1D35;
     border: solid 1px #033D57;
@@ -573,7 +577,7 @@ hr{
     width: 100%;
 }
 
-.text-area-box:focus ~ .contact-label{
+.text-area-box:focus~.contact-label {
     top: -12px;
     padding: 5px;
     background-color: #0C1D35;
@@ -581,7 +585,7 @@ hr{
     color: #60E7FA !important;
 }
 
-.contact-label{
+.contact-label {
     color: lightslategray !important;
     position: absolute;
     font-size: 12px;
@@ -590,7 +594,7 @@ hr{
     transition: .2s ease-in-out;
 }
 
-.contact-submit-button{
+.contact-submit-button {
     width: 100%;
     border: solid 1px #033D57;
     background-color: #60E7FA;
@@ -601,7 +605,7 @@ hr{
     letter-spacing: 5px;
 }
 
-form{
+form {
     display: contents;
 }
 
@@ -619,7 +623,7 @@ form{
 
 
 /* footer CSS */
-#row-footer{
+#row-footer {
     background-color: #030820;
     border-top: solid 1px #033D57;
     padding: 20px;
@@ -629,18 +633,369 @@ form{
     margin-top: 10%;
 }
 
-.footer-box{
+.footer-box {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.footer-box i{
+.footer-box i {
     font-size: 30px;
 }
 
-.text-footer1{
+.text-footer1 {
     color: lightslategray !important;
     margin-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Max Hub Max Screen Size */
+@media screen and (min-width: 1280px) and (max-width: 1280px) and (min-height: 800px) and (max-height: 800px) {
+
+
+    /* Splitter */
+    .splitter {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-splitter {
+        font-size: 12px;
+        padding: 8px 25px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Navbar CSS */
+    #navbar {
+        background-color: rgba(3, 8, 32, 0.1) !important;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-bottom: solid 1px #033D57;
+        position: sticky;
+        z-index: 2;
+        padding: 5px !important;
+        top: 0;
+    }
+
+    #navbar-logo {
+        margin-left: 16%;
+        font-weight: bolder;
+    }
+
+    #navbar-logo i {
+        font-weight: normal;
+        color: #60E7FA !important;
+    }
+
+    #navbar-link {
+        margin-left: auto;
+        font-size: 13px;
+        margin-right: 20%;
+    }
+
+    #navbar-link li {
+        margin: 0px 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Landing CSS */
+    #row-landing {
+        margin: 80px 15% 0px 15%;
+    }
+
+    .text-landing1 {
+        padding: 5px 10px;
+        font-size: 8px;
+    }
+
+    .text-landing2 {
+        font-size: 35px;
+    }
+
+    .text-landing3 {
+        font-size: 15px;
+    }
+
+    .explore-button {
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+
+    .contact-button {
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+
+    .resume-button {
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+
+    .profile-picture {
+        width: 100px;
+    }
+
+    .profile-name {
+        font-size: 18px;
+    }
+
+    .profile-icon {
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Project CSS */
+    #row-projects {
+        margin: 0px 12% 0px 12%;
+    }
+
+    .text-project1 {
+        font-size: 18px;
+    }
+
+    .text-project2 {
+        font-size: 12px;
+    }
+
+    .inner-project {
+        gap: 25px;
+    }
+
+    .inner-project i {
+        font-size: 20px;
+    }
+
+    .view-repository {
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Skills CSS */
+    #row-skills {
+        margin: 0px 12% 0px 12%;
+    }
+
+    .text-skills1 {
+        font-size: 15px;
+    }
+
+    .text-skills2 {
+        font-size: 13px;
+    }
+
+    .text-skills3 {
+        font-size: 10px;
+    }
+
+    .text-skills4 {
+        font-size: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Tools CSS */
+    #row-tools {
+        margin: 0px 12% 0px 12%;
+    }
+
+    .text-tools1 {
+        font-size: 15px;
+    }
+
+    .text-tools2 {
+        font-size: 10px;
+    }
+
+    .text-tools3 {
+        font-size: 10px;
+    }
+
+    .tools-icon {
+        font-size: 13px;
+        border-radius: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Contact CSS */
+    #row-contact {
+        margin: 0px 12% 0px 12%;
+    }
+
+    .text-contact1 {
+        font-size: 30px;
+    }
+
+    .text-contact2 {
+        font-size: 18px;
+    }
+
+    .text-contact3 {
+        font-size: 9px;
+    }
+
+    .text-contact4 {
+        font-size: 10px;
+    }
+
+    .text-contact5 {
+        font-size: 10px;
+    }
+
+    #contact-icon1 {
+        font-size: 25px;
+    }
+
+    #contact-icon2 {
+        font-size: 25px;
+    }
+
+    .contact-input-box {
+        font-size: 12px;
+    }
+
+    .contact-input-box:focus~.contact-label,
+    .contact-input-box:not(:placeholder-shown)~.contact-label {
+        font-size: 8px;
+    }
+
+    .contact-label {
+        top: 10px;
+        font-size: 12px;
+    }
+
+    .contact-submit-button {
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Footer CSS */
+    #row-footer {
+        padding: 10px;
+    }
+
+    .footer-box i {
+        font-size: 20px;
+    }
+
+    .text-footer1 {
+        font-size: 13px;
+    }
+
+
+
 }
